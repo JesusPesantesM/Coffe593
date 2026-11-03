@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coffe 593. Café ecuatoriano, nuestra historia, galería y catálogo de productos.">
+  <title>Tienda virtual | Coffe 593</title>
+  <link rel="icon" type="image/jpeg" href="imageneslogo.jpeg">
+  <link rel="stylesheet" href="estilos.css">
+
+  <style>
+    .productos {
+      align-items: stretch;
+    }
+    .producto {
+      min-width: 0;
+    }
+    .espacio-imagen {
+      width: 100%;
+      height: 250px;
+      padding: 0;
+      margin: 0;
+      border: none;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+.espacio-imagen .foto {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+  transform: translateX(-60px);
+}
+    @media (max-width: 600px) {
+      .espacio-imagen {
+        height: 210px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="saltar" href="#contenido">Ir al contenido</a>
+
+  <!-- ENCABEZADO -->
+  <div class="cabecera">
+    <div class="contenedor fila-cabecera">
+      <a class="nombre-marca" href="index.html">Coffe <span>593</span><span class="subtitulo-marca">CAFÉ ECUATORIANO</span></a>
+      <p class="frase-marca">De nuestra tierra.<br>Para tu taza.</p>
+      <a href="index.html"><img class="logo" src="imageneslogo.jpeg" alt="Coffe 593, inicio"></a>
+    </div>
+  </div>
+
+  <!-- MENÚ PRINCIPAL -->
+  <nav class="menu" aria-label="Menú principal">
+    <div class="contenedor enlaces-menu">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="galeria.html">Galería</a>
+      <a href="contactenos.html">Contáctenos</a>
+      <a href="tienda.html" class="activo" aria-current="page">Tienda virtual</a>
+    </div>
+  </nav>
+
+  <main id="contenido">
+    <div class="banner">
+      <div class="contenedor">
+        <p class="etiqueta">COFFE 593 &nbsp; / &nbsp; 04</p>
+        <h1>Tienda virtual.</h1>
+        <p>Encuentra tu café. Haz tuyo el momento.</p>
+      </div>
+    </div>
+
+    <div class="contenedor seccion">
+      <p class="aviso-catalogo">Catálogo de ejemplo. Las presentaciones y los precios están pendientes de completar. Para pedidos, consulta la página de contacto.</p>
+
+      <!-- CATEGORÍA DE CAFÉS -->
+      <div class="columnas-tienda">
+        <div class="categoria" id="cafes">
+          <div class="titulo-categoria"><span>01</span><h2>Cafés</h2></div>
+          <div class="productos">
+
+            <div class="producto">
+              <div class="espacio-imagen"><img class="foto" src="Cafe soluble producto.jpeg" alt="Café soluble"></div>
+              <div class="producto-texto">
+                <h3>Café soluble</h3>
+                <p>Presentación por definir</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"><img class="foto" src="Cafe descafeinado producto.jpeg" alt="Café descafeinado"></div>
+              <div class="producto-texto">
+                <h3>Café descafeinado</h3>
+                <p>Presentación por definir</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"><img class="foto" src="Cafe de vainilla producto.jpeg" alt="Café de vainilla"></div>
+              <div class="producto-texto">
+                <h3>Café de vainilla</h3>
+                <p>Presentación por definir</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"><img class="foto" src="Cafe de caramelo producto.jpeg" alt="Café de caramelo"></div>
+              <div class="producto-texto">
+                <h3>Café de caramelo</h3>
+                <p>Presentación por definir</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"><img class="foto" src="Cafe de pasar producto.jpeg" alt="Café de pasar"></div>
+              <div class="producto-texto">
+                <h3>Café de pasar</h3>
+                <p>Presentación por definir</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CATEGORÍA DE MERCHANDISING -->
+        <div class="categoria" id="merchandising">
+          <div class="titulo-categoria"><span>02</span><h2>Merchandising</h2></div>
+          <div class="productos">
+
+            <div class="producto">
+              <div class="espacio-imagen"></div>
+              <div class="producto-texto">
+                <h3>Taza Coffe 593</h3>
+                <p>Tu compañera para cada pausa</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"></div>
+              <div class="producto-texto">
+                <h3>Camiseta Coffe 593</h3>
+                <p>Tallas y colores por definir</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"></div>
+              <div class="producto-texto">
+                <h3>Bolsa de tela</h3>
+                <p>Lleva contigo lo que te gusta</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+            <div class="producto">
+              <div class="espacio-imagen"></div>
+              <div class="producto-texto">
+                <h3>Termo Coffe 593</h3>
+                <p>Para acompañarte en el camino</p>
+                <p class="precio">Precio por definir</p>
+                <a class="enlace" href="contactenos.html">Consultar producto</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <div class="pie">
+    <div class="contenedor fila-pie">
+      <a class="nombre-pie" href="index.html">Coffe <span>593</span></a>
+      <p>Un encuentro con el café ecuatoriano.</p>
+      <a href="contactenos.html">Conversemos</a>
+    </div>
+  </div>
+</body>
+</html>
