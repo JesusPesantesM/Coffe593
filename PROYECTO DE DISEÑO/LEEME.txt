@@ -1,0 +1,60 @@
+COFFE 593 — SITIO EN HTML Y CSS
+
+PARA ABRIRLO
+Extraigan el ZIP completo y abran index.html con su navegador.
+No necesita internet, instalaciones ni JavaScript.
+
+ARCHIVOS
+index.html       Inicio y banner del producto.
+nosotros.html    Historia de la empresa y espacio para foto.
+galeria.html     Fotos, información, videos y merchandising.
+contactenos.html Datos de contacto y tienda física.
+tienda.html      Catálogo dividido en cafés y merchandising.
+estilos.css     Colores, tamaños y distribución de las cinco páginas.
+imagenes/logo.png Logo que ustedes compartieron.
+
+PARA EDITAR
+Abran los archivos con Visual Studio Code o un editor de texto.
+Se usan principalmente div, h1, h2, h3, p, a, span e img.
+Los comentarios <!-- ... --> de HTML y /* ... */ de CSS explican las secciones.
+Flexbox (display: flex) coloca los elementos en columnas.
+Las reglas @media al final del CSS acomodan el contenido en celulares.
+Los atributos role y aria ayudan a lectores de pantalla; pueden dejarlos como están.
+
+PARA PONER UNA FOTO
+1. Guarden su foto dentro de imagenes, por ejemplo cafe.jpg.
+2. Busquen el div con class="espacio-imagen" de esa foto.
+3. Reemplacen todo ese div (incluidos su span y su p) por:
+   <img class="foto" src="imagenes/cafe.jpg" alt="Nuestro café en grano">
+4. Si el espacio tiene una clase especial, manténganla también:
+   <img class="foto imagen-portada" src="imagenes/banner.jpg" alt="Café Coffe 593">
+   Otras clases especiales: imagen-historia, imagen-mapa.
+El logo ya está incluido. Los demás espacios se dejaron vacíos a propósito.
+
+PARA PONER UN VIDEO
+Creen una carpeta videos junto a imagenes y guarden allí su video.
+Reemplacen el div completo de class="espacio-video" por:
+<video class="video" controls src="videos/cafe.mp4"></video>
+La etiqueta video es la opción básica de HTML para reproducir videos.
+
+COLORES
+Negro:   #10100c
+Crema:   #f7ecd8
+Amarillo:#ffbd28
+Verde:   #294b31
+Café:    #75452e
+Pueden buscar esos códigos en estilos.css y cambiarlos.
+
+ANTES DE PRESENTAR O COMPARTIR
+Completen la historia real, las fotos, los videos y los datos de contacto.
+Los nombres y descripciones de productos son ejemplos editables.
+Completen precios, presentaciones y productos reales en tienda.html.
+No se transcribieron datos de contacto del boceto porque no se distinguen con certeza.
+Para hacer un teléfono o correo clicable, usen sus datos reales:
+<a href="tel:+593XXXXXXXXX">Su número</a>
+<a href="mailto:correo@ejemplo.com">Su correo</a>
+Para redes, reemplacen el texto por enlaces a sus perfiles reales.
+La tienda es un catálogo visual: no incluye carrito, pagos ni envío de formularios.
+"Consultar producto" abre la página de contacto.
+El encabezado, menú y pie están copiados en cada HTML para evitar JavaScript:
+si los modifican, repitan el cambio en las cinco páginas.
